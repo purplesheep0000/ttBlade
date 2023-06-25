@@ -1,0 +1,45 @@
+/* CSS 樣式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.post-form {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.post-form h2 {
+    margin-bottom: 20px;
+}
+
+.post-form input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.post-form textarea {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.post-form input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
